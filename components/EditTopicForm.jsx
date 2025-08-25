@@ -1,5 +1,5 @@
-export default function AddTopic() {
-  return (
+export default function EditTopicForm(){
+    return  (
     <form className="flex flex-col gap-3">
       <input
         className="border border-slate-500 px-8 py-2"
@@ -13,8 +13,8 @@ export default function AddTopic() {
         placeholder="Course"
       />
       <button className="bg-green-600 font-bold text-white py-3 px-6 w-fit">
-        Add Student
+        Update Database
       </button>
     </form>
-  );
-}
+    )
+};

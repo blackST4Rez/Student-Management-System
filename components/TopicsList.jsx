@@ -5,7 +5,7 @@ import {HiPencilAlt} from "react-icons/hi"
 export default function TopicsList() {
   return (
     <>
-    <div className="p-4 border border-slate-300 my-3 flex justify-between gap-5 item-start" >
+    <div className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start" >
         <div>
             <h2 className="font-bold text-2xl">Student Name</h2>
             <div>Course</div>
